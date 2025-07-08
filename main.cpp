@@ -2,7 +2,7 @@
 using namespace std;
 
 // Deklarasi menu dari file terpisah
-void menuTokoBuah();    // Dari tugas 1 - Linked List
+void menuTokoBuah();
 void menuTree();
 void menuGraph();
 
