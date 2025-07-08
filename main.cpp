@@ -238,7 +238,7 @@ void menuGraph() {
             return;
         }
         graph[dari].push_back(ke);
-        graph[ke].push_back(dari); // Jika undirected
+        graph[ke].push_back(dari);
         cout << "Edge antara '" << dari << "' dan '" << ke << "' berhasil ditambahkan.\n";
     };
 
