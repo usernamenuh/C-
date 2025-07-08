@@ -315,7 +315,7 @@ int main() {
         cout << "Pilih menu [1-4]: ";
         cin >> pilihan;
 
-        // Proses pilihan
+
         switch (pilihan) {
             case 1:
                 menuLinkedList();
