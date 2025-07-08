@@ -1,26 +1,31 @@
 #include <iostream>
 using namespace std;
 
-// Deklarasi menu toko buah dari file LinkedList
-void menuTokoBuah();
+// Deklarasi menu dari file terpisah
+void menuTokoBuah();    // Dari tugas 1 - Linked List
+void menuTree();        // Dari tugas 2 - Tree
 
 int main() {
-    string nama = "Muhammad Enuh";
-    string nim = "24010019";
+    // Identitas mahasiswa
+    string nama  = "Muhammad Enuh";
+    string nim   = "24010019";
     string kelas = "A2024";
 
     int pilih;
 
     do {
-        cout << "\n==============================\n";
+        // Tampilan menu utama
+        cout << "\n==================================\n";
+        cout << "             MENU UAS            \n";
+        cout << "==================================\n";
         cout << "NIM   : " << nim << "\n";
         cout << "Nama  : " << nama << "\n";
         cout << "Kelas : " << kelas << "\n";
-        cout << "==============================\n";
-        cout << "MENU UAS:\n";
-        cout << "1. Linked List (Toko Buah)\n";
-        cout << "2. Keluar\n";
-        cout << "Pilih menu: ";
+        cout << "----------------------------------\n";
+        cout << "1. Toko Buah (Linked List)\n";
+        cout << "2. Data Pelanggan (Tree)\n";
+        cout << "3. Exit\n";
+        cout << "Pilih menu [1-3]: ";
         cin >> pilih;
 
         switch (pilih) {
@@ -28,13 +33,16 @@ int main() {
                 menuTokoBuah();
                 break;
             case 2:
-                cout << "Terima kasih, program selesai.\n";
+                menuTree();
+                break;
+            case 3:
+                cout << "\nProgram selesai. Terima kasih!\n";
                 break;
             default:
-                cout << "Pilihan tidak valid.\n";
+                cout << "Pilihan tidak valid. Silakan coba lagi.\n";
         }
 
-    } while (pilih != 2);
+    } while (pilih != 3);
 
     return 0;
 }
