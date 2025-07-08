@@ -253,7 +253,6 @@ void menuGraph() {
         }
     };
 
-    // Menu
     int pilihan;
     string simpul1, simpul2;
     do {
