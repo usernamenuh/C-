@@ -153,7 +153,7 @@ void menuTree() {
         }
     };
 
-    // Fungsi mencari data di tree
+
     function<bool(TreeNode*, int)> cariNode = [&](TreeNode* node, int value) -> bool {
         if (node == nullptr) return false;
         if (value == node->data) return true;
