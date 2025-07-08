@@ -6,7 +6,6 @@ void menuTree();
 void menuGraph();
 
 int main() {
-    // Identitas mahasiswa
     string nama  = "Muhammad Enuh";
     string nim   = "24010019";
     string kelas = "A2024";
