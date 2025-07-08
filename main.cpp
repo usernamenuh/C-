@@ -4,6 +4,7 @@ using namespace std;
 // Deklarasi menu dari file terpisah
 void menuTokoBuah();    // Dari tugas 1 - Linked List
 void menuTree();        // Dari tugas 2 - Tree
+void menuGraph(); // <-- deklarasi
 
 int main() {
     // Identitas mahasiswa
@@ -24,7 +25,8 @@ int main() {
         cout << "----------------------------------\n";
         cout << "1. Toko Buah (Linked List)\n";
         cout << "2. Data Pelanggan (Tree)\n";
-        cout << "3. Exit\n";
+        cout << "3. Graph (Relasi Pelanggan)\n";
+        cout << "4. Exit\n";
         cout << "Pilih menu [1-3]: ";
         cin >> pilih;
 
@@ -36,6 +38,9 @@ int main() {
                 menuTree();
                 break;
             case 3:
+                menuGraph();
+                break;
+            case 4:
                 cout << "\nProgram selesai. Terima kasih!\n";
                 break;
             default:
