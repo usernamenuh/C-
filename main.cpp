@@ -13,7 +13,6 @@ int main() {
     int pilih;
 
     do {
-        // Tampilan menu utama
         cout << "\n==================================\n";
         cout << "             MENU UAS            \n";
         cout << "==================================\n";
