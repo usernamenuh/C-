@@ -297,7 +297,7 @@ int main() {
     string nama = "Muhammad Enuh";
     string kelas = "A2024";
 
-    // Menampilkan identitas
+
     cout << "===============================\n";
     cout << "NIM   : " << nim << endl;
     cout << "Nama  : " << nama << endl;
