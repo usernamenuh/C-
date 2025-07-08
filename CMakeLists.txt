@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(untitled1 main.cpp
         LinkedList.cpp
         Tree.cpp
+        Graph.cpp
 )
