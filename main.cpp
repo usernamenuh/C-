@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Deklarasi menu dari file terpisah
 void menuTokoBuah();
 void menuTree();
 void menuGraph();
