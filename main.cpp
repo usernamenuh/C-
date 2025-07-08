@@ -306,7 +306,7 @@ int main() {
 
     int pilihan;
     do {
-        // Menampilkan menu
+
         cout << "\nMenu:\n";
         cout << "1. Linked List\n";
         cout << "2. Tree\n";
