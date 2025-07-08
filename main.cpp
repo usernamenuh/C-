@@ -204,7 +204,7 @@ void menuTree() {
 
     } while (pilihan != 4);
 
-    // Fungsi untuk menghapus tree (menghindari memory leak)
+
     function<void(TreeNode*)> hapusTree = [&](TreeNode* node) {
         if (node != nullptr) {
             hapusTree(node->left);
