@@ -7,4 +7,5 @@ add_executable(untitled1 main.cpp
         LinkedList.cpp
         Tree.cpp
         Graph.cpp
+        TokoBuah.h
 )
